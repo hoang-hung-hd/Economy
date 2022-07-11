@@ -3,7 +3,15 @@ using DTO;
 
 namespace Economy.Service
 {
-    public class BrandService
+    public interface IBrandService
+    {
+        IEnumerable<BrandModel> GetAll();
+        BrandModel GetById(int id);
+        void Create(Brand model);
+        void Update(int id, Brand model);
+        void Delete(int id);
+    }
+    public class BrandService : IBrandService
     {
        
             private AppDbContext _context;

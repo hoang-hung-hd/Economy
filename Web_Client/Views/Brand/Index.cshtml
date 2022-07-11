@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Web_Client.Models.Brand>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BrandId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BrandName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BrandId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BrandName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.BrandId  }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.BrandId  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.BrandId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

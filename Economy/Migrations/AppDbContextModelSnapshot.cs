@@ -251,12 +251,6 @@ namespace Economy.Migrations
                     b.Property<int?>("ListItemModelListItemId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ProductBrandId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductCategoryId")
-                        .HasColumnType("int");
-
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

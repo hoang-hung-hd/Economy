@@ -1,0 +1,15 @@
+C:\Practice\Economy\DTO\bin\Debug\net6.0\DTO.exe
+C:\Practice\Economy\DTO\bin\Debug\net6.0\DTO.deps.json
+C:\Practice\Economy\DTO\bin\Debug\net6.0\DTO.runtimeconfig.json
+C:\Practice\Economy\DTO\bin\Debug\net6.0\DTO.dll
+C:\Practice\Economy\DTO\bin\Debug\net6.0\DTO.pdb
+C:\Practice\Economy\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+C:\Practice\Economy\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practice\Economy\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+C:\Practice\Economy\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+C:\Practice\Economy\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+C:\Practice\Economy\DTO\obj\Debug\net6.0\DTO.dll
+C:\Practice\Economy\DTO\obj\Debug\net6.0\refint\DTO.dll
+C:\Practice\Economy\DTO\obj\Debug\net6.0\DTO.pdb
+C:\Practice\Economy\DTO\obj\Debug\net6.0\DTO.genruntimeconfig.cache
+C:\Practice\Economy\DTO\obj\Debug\net6.0\ref\DTO.dll

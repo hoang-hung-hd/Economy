@@ -1,4 +1,5 @@
 ﻿using Economy.Models;
+using Economy.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
@@ -61,6 +62,10 @@ var builder = WebApplication.CreateBuilder(args);
         // SecurityStamp trong bảng User đổi -> nạp lại thông tinn Security
         options.ValidationInterval = TimeSpan.FromSeconds(5);
     });
+
+    services.AddScoped<IBrandService, BrandService>();
+    services.AddScoped<CategoryService, CategoryService>();
+    services.AddScoped<ProductService, ProductService>();
 }
 
 builder.Services.AddControllers();
