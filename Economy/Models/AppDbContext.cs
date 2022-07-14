@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Economy.Models
 {
-    public class AppDbContext : IdentityDbContext<AppUser>
+    public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> option) : base(option) { }
         protected override void OnModelCreating(ModelBuilder builder)
@@ -36,5 +35,6 @@ namespace Economy.Models
         public DbSet<StaffModel> Staff { set; get; }
         public DbSet<BillModel> Bill { set; get; }
         public DbSet<ListItemModel> ListItem { set; get; }
+        public DbSet<UserModel> Users { set; get; }
     }
 }

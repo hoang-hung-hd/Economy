@@ -282,3 +282,5 @@ C:\Practice\Economy\Economy\bin\Debug\net6.0\DTO.runtimeconfig.json
 C:\Practice\Economy\Economy\bin\Debug\net6.0\DTO.exe
 C:\Practice\Economy\Economy\bin\Debug\net6.0\DTO.dll
 C:\Practice\Economy\Economy\bin\Debug\net6.0\DTO.pdb
+C:\Practice\Economy\Economy\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Practice\Economy\Economy\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

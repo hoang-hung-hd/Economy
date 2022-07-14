@@ -1,11 +1,13 @@
 ﻿using DTO;
 using Economy.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Economy.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Authorize]
+    [Route("api/[controller]")]
     public class CategoryController : ControllerBase
     {
 
